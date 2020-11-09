@@ -1,8 +1,8 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[6]:
 
+Soalan 1: 
 
 def  countSetBits(n): 
     count = 0
@@ -17,16 +17,15 @@ i = input("Enter the number: ")
 print(countSetBits(int(i)))
 
 
-# In[28]:
 
+Soalan 2:
 
 import collections
 s = input("Enter your word: ")
 print(collections.Counter(s).most_common(1)[0])
 
 
-# In[12]:
-
+Soalan 3: 
 
 text= input("Enter your text")
   
@@ -41,8 +40,8 @@ res = len(text.split())
 print ("The number of words in string are : " +  str(res)) 
 
 
-# In[59]:
 
+soalan 4a)
 
 def print_arguments(function):
     print("The argument is", function)
@@ -54,7 +53,7 @@ result = print_arguments(3)
 print("This will return",result)
 
 
-# In[60]:
+4b)
 
 
 def multiply_output(function):
@@ -67,8 +66,8 @@ result = multiply_output(3)
 print("This will return",result)
 
 
-# In[63]:
 
+4c)
 
 def augment_function(function, decorators):
     
